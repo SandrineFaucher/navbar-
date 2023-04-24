@@ -1,0 +1,50 @@
+body{
+margin:0;
+padding: 0;
+
+}
+
+html{
+    height: 100vh;
+}
+
+header { 
+    whidth:100%;
+    background-color : white;
+    }
+    
+nav{
+display: flex;
+flex-wrap: wrap;
+align-items:center;
+justify-content: space-around;
+box-shadow: 0px 0px 10px gray;
+}
+
+img{
+    width: 150px;
+}
+ul{
+width:50%;
+display:flex;
+justify-content:space-around;
+list-style:none;
+
+}
+
+nav ul li a {
+color :orange;
+font-family: 'baloo bhai 2', cursive;
+text-transform: uppercase;                                                                     
+border-left: 3px solid transparent;
+font-size: 30px;
+padding-left: 5px;
+transition: 0.5s;
+text-decoration:none;
+}
+
+nav ul li a:hover{
+
+    border-left: 3px solid ffd754;
+    transition: 0.5s;
+}
